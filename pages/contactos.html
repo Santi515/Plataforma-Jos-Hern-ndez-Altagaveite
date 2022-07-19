@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="../styles/contactos.css">
+    <title>Contactos</title>
+</head>
+
+<body id="foto">
+    <header>
+        <img src="../img/logo_jh.png" alt="Logo JH">
+        <h1 class="title">Colegio José Hernández</h1>
+        <h2>1936 - 2022</h2>
+        <ul style="text-align: left;">
+            <il><a href="../index.html">Inicio</a></il>
+            <il><a href="alumno.html">Alumno</a></il>
+            <il><a href="calendario.html">Calendario</a></il>
+            <il><a href="calificaciones.html">Calificaciones</a></il>
+            <il><a href="contactos.html">Contactos</a></il>
+        </ul>
+    </header>
+
+    <main>
+        <section>
+            <article>
+                <h3 class="main_title">Para poder cominucarse con nosotros ingrese los siguientes datos:</h3>
+                <form action="comentario o solicitud" method="post" enctype="text/plain">
+                    <div>
+                        <label class="data" for="nombre">Nombre:</label>
+                        <input name="nombre" type="text">
+                        <br>
+                        <label class="data" for="apellido">Apellido:</label>
+                        <input type="text" name="apellido">
+                        <br>
+                        <label class="data" for="correo">Correo electronico:</label>
+                        <input type="mail" name="correo" placeholder="ejemplo@gmail.com">
+                        <br>
+                        <label class="data" for="numero de tel">Número de Telefono:</label>
+                        <input type="text" name="numero de tel" placeholder="11-2345-6789">
+                    </div>
+                    <h4><b>¿Quieres solicitar un turno?</b></h4>
+                    <label class="data" for="click">Si, quiero solicitar un turno</label>
+                    <input name="click" type="checkbox">
+                    <br><br>
+                    <label class="comment_title" for="comentarios">Diganos el motivo por el cual se quiere contactar con
+                        nosotros</label>
+                    <br>
+                    <textarea name="comentarios" id="" cols="40" rows="15" placeholder="Comentarios..."></textarea>
+                    <input type="submit" value="Enviar formulario">
+                    <input type="reset" value="Limpiar formulario">
+                </form>
+                <h3 class="end_title">¡Le contestaremos lo mas pronto posible!</h3>
+            </article>
+        </section>
+    </main>
+
+    <br>
+
+    <footer>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <address>
+            @colegiojosehernandez
+        </address>
+    </footer>
+
+</body>
+
+</html>
